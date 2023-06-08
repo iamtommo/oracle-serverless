@@ -1,0 +1,15 @@
+# terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# maven
+target/
+dependency-reduced-pom.xml
+
+.idea/
+logs/

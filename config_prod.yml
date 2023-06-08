@@ -1,0 +1,11 @@
+logging:
+  level: INFO
+  appenders:
+    - type: console
+    - type: file
+      layout:
+        type: json
+      currentLogFilename: ./logs/server.log
+      archivedLogFilenamePattern: ./logs/server-%d.log.gz
+      archivedFileCount: 5
+      timeZone: UTC
